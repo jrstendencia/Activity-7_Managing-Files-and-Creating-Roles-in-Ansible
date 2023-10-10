@@ -1,9 +1,5 @@
 ---
 
-- hosts: workstations
-  become: true
-  tasks:
-
     - name: install unzip
       package:
         name: unzip
